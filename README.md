@@ -1,6 +1,5 @@
 ## Group code:
-   SHR1_AIS5_S1e
-   Team 2
+   SHR1_AIS5_S1e || Team 2
 
 # Customer Sentiment and Trend Analysis Web App
 
@@ -115,4 +114,4 @@ This repository contains a **Customer Sentiment and Trend Analysis** web app tha
 
 5. **Yousef Wael:** [LinkedIn](https://www.linkedin.com/in/youssef-elsharkawyy/)
   
-6. **Alaa Attia:** [LinkedIn](https://www.linkedin.com/in/aya-attia-ai22/)
+6. **Aya Attia:** [LinkedIn](https://www.linkedin.com/in/aya-attia-ai22/)
