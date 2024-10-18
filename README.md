@@ -101,12 +101,12 @@ This repository contains a **Customer Sentiment and Trend Analysis** web app tha
 
 ## Team Members:
 
-1.**Amr Essam:** [LinkedIn](https://www.linkedin.com/in/amrgodovich/)
+1. **Amr Essam:** [LinkedIn](https://www.linkedin.com/in/amrgodovich/)
 
-2.**Hadeel Wael:** [LinkedIn](https://www.linkedin.com/in/hadeel-wael-014097253/)
+2. **Hadeel Wael:** [LinkedIn](https://www.linkedin.com/in/hadeel-wael-014097253/)
 
-3.**A'laa Abdelhay:** [LinkedIn](https://www.linkedin.com/in/a-laa-abdelhay-16a909239/)
+3. **A'laa Abdelhay:** [LinkedIn](https://www.linkedin.com/in/a-laa-abdelhay-16a909239/)
 
-4.**Ebtehal Karam:** [LinkedIn](https://www.linkedin.com/in/ebtehal-karam-197939267/)
+4. **Ebtehal Karam:** [LinkedIn](https://www.linkedin.com/in/ebtehal-karam-197939267/)
 
-5.**Yousef Wael:** 
+5. **Yousef Wael:** [LinkedIn](https://www.linkedin.com/in/youssef-elsharkawyy/)
