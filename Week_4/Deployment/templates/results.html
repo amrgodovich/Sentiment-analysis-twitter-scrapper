@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Results for {{ topic }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #2980b9;
+        }
+        div {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        li:hover {
+            background: #bdc3c7;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis Results for "{{ topic }}"</h1>
+
+        <h2>Sentiment Distribution</h2>
+        <div>
+            <img src="{{ url_for('static', filename=pie_chart_path) }}" alt="Sentiment Pie Chart">
+        </div>
+
+        <h2>Word Clouds</h2>
+        <div>
+            <h3>Positive Sentiment Word Cloud</h3>
+            <img src="{{ url_for('static', filename=positive_wc_path) }}" alt="Positive Word Cloud">
+        </div>
+        <div>
+            <h3>Negative Sentiment Word Cloud</h3>
+            <img src="{{ url_for('static', filename=negative_wc_path) }}" alt="Negative Word Cloud">
+        </div>
+
+        <h2>Sentiment Trends</h2>
+        <div>
+            <h3>Sentiment Trend Over Time</h3>
+            <img src="{{ url_for('static', filename=trend_path) }}" alt="Sentiment Trend Plot">
+        </div>
+
+        <h2>Top Tweets</h2>
+        <div>
+            <h3>Top Positive Tweets</h3>
+            <ul>
+                {% for tweet in positive_top2 %}
+                    <li>{{ tweet }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div>
+            <h3>Top Negative Tweets</h3>
+            <ul>
+                {% for tweet in negative_top2 %}
+                    <li>{{ tweet }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
