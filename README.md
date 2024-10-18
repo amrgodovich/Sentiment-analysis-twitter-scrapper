@@ -13,11 +13,10 @@ This repository contains a **Customer Sentiment and Trend Analysis** web app tha
 
 - **Flask**: Backend framework for web app development.
 - **Selenium**: For web scraping Twitter data.
-- **TensorFlow**: Pre-trained sentiment analysis model.
+- **TensorFlow**: A variance of NLP sentiment analysis models.
 - **Matplotlib & WordCloud**: Libraries for visualizing sentiment results.
 - **HTML/CSS**: Frontend template for displaying results.
 - **MLflow**: frame works to enable MLops techinques and enhance the integration/deployment process.
-
 
 ## Pipeline
 1. **Input**: User inputs a topic, username, and password via a web form.
@@ -29,6 +28,23 @@ This repository contains a **Customer Sentiment and Trend Analysis** web app tha
    - Trends over time (line plot)
    - Word cloud of common words
    - Display of top tweets based on sentiment scores
+
+## Models created:
+
+   - **LSTM model**.
+   
+   - **Nerual Network Classifier (two versions)**.
+   
+   - **Support Vector Machine (SVM)**.
+   
+   - **XGBoost Classifier**.
+   
+   - **Logistic Regression**.
+   
+   ```bash
+   cd Week_4/MLflow/models
+   ```
+
 
 ## Project Structure
 
