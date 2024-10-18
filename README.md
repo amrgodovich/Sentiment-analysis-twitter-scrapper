@@ -110,3 +110,5 @@ This repository contains a **Customer Sentiment and Trend Analysis** web app tha
 4. **Ebtehal Karam:** [LinkedIn](https://www.linkedin.com/in/ebtehal-karam-197939267/)
 
 5. **Yousef Wael:** [LinkedIn](https://www.linkedin.com/in/youssef-elsharkawyy/)
+  
+6. **Alaa Attia:** [LinkedIn](https://www.linkedin.com/in/aya-attia-ai22/)
