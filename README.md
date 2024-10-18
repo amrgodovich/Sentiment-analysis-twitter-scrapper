@@ -89,7 +89,7 @@ This repository contains a **Customer Sentiment and Trend Analysis** web app tha
 
 2.**Hadeel Wael:** [LinkedIn](https://www.linkedin.com/in/hadeel-wael-014097253/)
 
-3.**A'laa Abdelhay:** [LinkedIn](www.linkedin.com/in/a-laa-abdelhay-16a909239/)
+3.**A'laa Abdelhay:** [LinkedIn](https://www.linkedin.com/in/a-laa-abdelhay-16a909239/)
 
 4.**Ebtehal Karam:** [LinkedIn](https://www.linkedin.com/in/ebtehal-karam-197939267/)
 
