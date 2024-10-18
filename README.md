@@ -1,3 +1,7 @@
+## Group code:
+   SHR1_AIS5_S1e
+   Team 2
+
 # Customer Sentiment and Trend Analysis Web App
 
 This repository contains a **Customer Sentiment and Trend Analysis** web app that allows users to input a topic and automatically scrape tweets related to that topic. The app processes the scraped data, performs sentiment analysis, and visualizes the results using various tools like word clouds, pie charts, and trend plots.
